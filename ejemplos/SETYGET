@@ -1,0 +1,139 @@
+//Direccion
+ SetCalle(calle: string) {
+         this.calle = calle;
+     }
+     GetCalle(calle: string) {
+         return this.calle;
+     }
+     SetNumero(numero: number) {
+         this.numero = numero;
+     }
+     GetNumero(numero: number) {
+         return this.numero;
+     }
+     SetPiso(piso: string) {
+         this.piso = piso;
+     }
+     GetPiso(piso: number) {
+         return this.piso;
+     }
+     SetLetra(letra: string) {
+         this.letra = letra;
+     }
+     GetLetra(letra: string) {
+         return this.letra;
+     }
+     SetCod_postal(cod_postal: number) {
+         this.cod_postal = cod_postal;
+     }
+     GetCod_postal(cod_postal: number) {
+         return this.cod_postal;
+     }
+     SetPoblacion(poblacion: string) {
+         this.poblacion = poblacion;
+     }
+     GetPoblacion(poblacion: string) {
+         return this.poblacion;
+     }
+     SetProvincia(provincia: string) {
+         this.provincia = provincia;
+     }
+     GetProvincia(provincia: string) {
+         return this.provincia;
+     }
+
+     //Persona
+     SetNombre(nombre: string) {
+        this.nombre = nombre;
+    }
+    GetNombre(nombre: string) {
+        return this.nombre;
+    }
+    SetApellidos(apellidos: string) {
+        this.apellidos = apellidos;
+    }
+    GetApellidos(apellidos: string) {
+        return this.apellidos;
+    }
+    SetEdad(edad: number) {
+        this.edad = edad;
+    }
+    GetEdad(edad: number) {
+        return this.edad;
+    }
+    SetDni(dni: string) {
+        this.dni = dni;
+    }
+    GetDni(dni: string) {
+        return this.dni;
+    }
+    SetCumpleanios(cumpleanios: Date) {
+        this.cumpleanios = cumpleanios;
+    }
+    GetCumpleanios(cumpleanios: Date) {
+        return this.cumpleanios;
+    }
+    SetColor(color: string) {
+        this.color = color;
+    }
+    GetColor(color: string) {
+        return this.color;
+    }
+    SetSexo(sexo: string) {
+        this.sexo = sexo;
+    }
+    GetSexo(sexo: string) {
+        return this.sexo;
+    }
+    SetDirecciones(direcciones: string[]) {
+        this.direcciones = direcciones;
+    }
+    GetDirecciones(direcciones: string[]) {
+        return this.direcciones;
+    }
+    SetMails(mails: string[]) {
+        this.mails = mails;
+    }
+    GetMails(mails: string[]) {
+        return this.mails;
+    }
+    SetTelefonos(telefonos: number[]) {
+        this.telefonos = telefonos;
+    }
+    GetTelefonos(telefonos: number[]) {
+        return this.telefonos;
+    }
+    SetNotas(notas: string) {
+        this.notas = notas;
+    }
+    GetNotas(notas: string) {
+        return this.notas;
+    }
+
+    //mails
+    SetTipo(tipo:string){
+        this.tipo=tipo;
+    }
+    GetTipo(tipo:string){
+        return this.tipo;
+    }
+    SetDireccion(direccion:string){
+        this.direccion=direccion;
+    }
+    GetDireccion(direccion:string){
+        return this.direccion;
+    }
+
+    //Telefono
+    SetTipo(tipo:string){
+        this.tipo=tipo;
+    }
+    GetTipo(tipo:string){
+        return this.tipo;
+    }
+    SetNumero(numero:number){
+        this.numero=numero;
+    }
+    GetNumero(numero:number){
+        return this.numero;
+    }
