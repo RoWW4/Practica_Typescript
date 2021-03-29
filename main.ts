@@ -20,7 +20,7 @@ let telefono3 = new Telefono('Personal', 954120214);
 //let arrayPersonas: string[] = [persona1];
 
 let persona1 = new Persona("Rocio", "Beato Martin", 30, "12345678A", new Date(1977 / 12 / 25),
-    azul, 'Mujer', Direccion(direccion1, direccion2), Mail(mail1), Telefono(telefono1), 'nota1');
+    'azul', 'Mujer', direcciones(direccion1, direccion2), mails(mail1), telefonos(telefono1), 'nota1');
 //let persona2 = new Persona();
 //let persona3 = new Persona();
 //crear array de personas

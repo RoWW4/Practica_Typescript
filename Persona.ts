@@ -10,11 +10,25 @@ export class Persona{
     private cumpleanios: Date;
     private color: string;
     private sexo: string;
-    private direcciones: string[];
-    private mails: string[];
-    private telefonos: number[];
+    private direcciones: Direccion[];
+    private mails: Mail[];
+    private telefonos: Telefono[];
     private notas: string;
 
+    constructor(nombre: string, apellidos: string, edad: number, dni: string, cumpleanios: Date, color: string,
+        sexo: string, direcciones: string[], mails: string[], telefonos: number[], notas: string) {
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.edad = edad;
+        this.dni = dni;
+        this.cumpleanios = cumpleanios;
+        this.color = color;
+        this.sexo = sexo;
+        this.direcciones = new Array<Direccion>();
+        this.mails = new Array<Mail>();
+        this.telefonos = new Array<Telefono>();
+        this.notas = notas;
+/*
     SetNombre(nombre: string) {
         this.nombre = nombre;
     }
@@ -80,13 +94,6 @@ export class Persona{
     }
     GetNotas(notas:string){
         return this.notas;
+    }*/
     }
-
-    
-
-
-
-
-
-
 }
