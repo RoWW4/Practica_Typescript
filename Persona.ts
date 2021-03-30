@@ -3,97 +3,110 @@ import{ Mail } from "./Mail";
 import { Telefono } from "./Telefono";
 
 export class Persona{
-    private nombre: string;
-    private apellidos: string;
-    private edad: number;
-    private dni: string;
-    private cumpleanios: Date;
-    private color: string;
-    private sexo: string;
-    private direcciones: Direccion[];
-    private mails: Mail[];
-    private telefonos: Telefono[];
-    private notas: string;
+    private _nombre: string;
+    private _apellidos: string;
+    private _edad: number;
+    private _dni: string;
+    private _cumpleanios: Date;
+    private _color: string;
+    private _sexo: string;
+    private _direcciones: Direccion[];
+    private _mails: Mail[];
+    private _telefonos: Telefono[];
+    private _notas: string;
 
     constructor(nombre: string, apellidos: string, edad: number, dni: string, cumpleanios: Date, color: string,
-        sexo: string, direcciones: string[], mails: string[], telefonos: number[], notas: string) {
-        this.nombre = nombre;
-        this.apellidos = apellidos;
-        this.edad = edad;
-        this.dni = dni;
-        this.cumpleanios = cumpleanios;
-        this.color = color;
-        this.sexo = sexo;
-        this.direcciones = new Array<Direccion>();
-        this.mails = new Array<Mail>();
-        this.telefonos = new Array<Telefono>();
-        this.notas = notas;
-/*
-    SetNombre(nombre: string) {
-        this.nombre = nombre;
+        sexo: string, direcciones: Direccion[], mails: Mail[], telefonos: Telefono[], notas: string) {
+        this._nombre = nombre;
+        this._apellidos = apellidos;
+        this._edad = edad;
+        this._dni = dni;
+        this._cumpleanios = cumpleanios;
+        this._color = color;
+        this._sexo = sexo;
+        this._direcciones = direcciones;
+        this._mails = mails;
+        this._telefonos = telefonos;
+        this._notas = notas;
     }
-    GetNombre(nombre:string){
-        return this.nombre;
+
+    public get nombre(): string {
+        return this._nombre;
     }
-    SetApellidos(apellidos: string){
-        this.apellidos=apellidos;
+    public set nombre(value: string) {
+        this._nombre = value;
     }
-    GetApellidos(apellidos:string){
-        return this.apellidos;
+    
+    public get apellidos(): string {
+        return this._apellidos;
     }
-    SetEdad(edad:number){
-        this.edad=edad;
+    public set apellidos(value: string) {
+        this._apellidos = value;
     }
-    GetEdad(edad:number){
-        return this.edad;
+    
+    public get edad(): number {
+        return this._edad;
     }
-    SetDni(dni:string){
-        this.dni=dni;
+    public set edad(value: number) {
+        this._edad = value;
     }
-    GetDni(dni:string){
-        return this.dni;
+    
+    public get dni(): string {
+        return this._dni;
     }
-    SetCumpleanios(cumpleanios:Date){
-        this.cumpleanios=cumpleanios;
+    public set dni(value: string) {
+        this._dni = value;
     }
-    GetCumpleanios(cumpleanios:Date){
-        return this.cumpleanios;
+    
+    public get cumpleanios(): Date {
+        return this._cumpleanios;
     }
-    SetColor(color:string){
-        this.color=color;
+    public set cumpleanios(value: Date) {
+        this._cumpleanios = value;
     }
-    GetColor(color:string){
-        return this.color;
+   
+    public get color(): string {
+        return this._color;
     }
-    SetSexo(sexo:string){
-        this.sexo=sexo;
+    public set color(value: string) {
+        this._color = value;
     }
-    GetSexo(sexo:string){
-        return this.sexo;
+    
+    public get sexo(): string {
+        return this._sexo;
     }
-    SetDirecciones(direcciones:string[]){
-        this.direcciones=direcciones;
+    public set sexo(value: string) {
+        this._sexo = value;
     }
-    GetDirecciones(direcciones:string[]){
-        return this.direcciones;
+    
+    public get direcciones(): Direccion[] {
+        return this._direcciones;
     }
-    SetMails(mails:string[]){
-        this.mails=mails;
+    public set direcciones(value: Direccion[]) {
+        this._direcciones = value;
     }
-    GetMails(mails:string[]){
-        return this.mails;
+    
+    public get mails(): Mail[] {
+        return this._mails;
     }
-    SetTelefonos(telefonos:number[]){
-        this.telefonos=telefonos;
+    public set mails(value: Mail[]) {
+        this._mails = value;
     }
-    GetTelefonos(telefonos:number[]){
-        return this.telefonos;
+    
+    public get telefonos(): Telefono[] {
+        return this._telefonos;
     }
-    SetNotas(notas:string){
-        this.notas=notas;
+    public set telefonos(value: Telefono[]) {
+        this._telefonos = value;
     }
-    GetNotas(notas:string){
-        return this.notas;
-    }*/
+
+    public get notas(): string {
+        return this._notas;
     }
+    public set notas(value: string) {
+        this._notas = value;
+    }
+    
 }
+
+

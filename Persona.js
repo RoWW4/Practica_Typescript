@@ -1,87 +1,130 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.Persona = void 0;
 var Persona = /** @class */ (function () {
     function Persona(nombre, apellidos, edad, dni, cumpleanios, color, sexo, direcciones, mails, telefonos, notas) {
-        this.nombre = nombre;
-        this.apellidos = apellidos;
-        this.edad = edad;
-        this.dni = dni;
-        this.cumpleanios = cumpleanios;
-        this.color = color;
-        this.sexo = sexo;
-        this.direcciones = new Array();
-        this.mails = new Array();
-        this.telefonos = new Array();
-        this.notas = notas;
-        /*
-            SetNombre(nombre: string) {
-                this.nombre = nombre;
-            }
-            GetNombre(nombre:string){
-                return this.nombre;
-            }
-            SetApellidos(apellidos: string){
-                this.apellidos=apellidos;
-            }
-            GetApellidos(apellidos:string){
-                return this.apellidos;
-            }
-            SetEdad(edad:number){
-                this.edad=edad;
-            }
-            GetEdad(edad:number){
-                return this.edad;
-            }
-            SetDni(dni:string){
-                this.dni=dni;
-            }
-            GetDni(dni:string){
-                return this.dni;
-            }
-            SetCumpleanios(cumpleanios:Date){
-                this.cumpleanios=cumpleanios;
-            }
-            GetCumpleanios(cumpleanios:Date){
-                return this.cumpleanios;
-            }
-            SetColor(color:string){
-                this.color=color;
-            }
-            GetColor(color:string){
-                return this.color;
-            }
-            SetSexo(sexo:string){
-                this.sexo=sexo;
-            }
-            GetSexo(sexo:string){
-                return this.sexo;
-            }
-            SetDirecciones(direcciones:string[]){
-                this.direcciones=direcciones;
-            }
-            GetDirecciones(direcciones:string[]){
-                return this.direcciones;
-            }
-            SetMails(mails:string[]){
-                this.mails=mails;
-            }
-            GetMails(mails:string[]){
-                return this.mails;
-            }
-            SetTelefonos(telefonos:number[]){
-                this.telefonos=telefonos;
-            }
-            GetTelefonos(telefonos:number[]){
-                return this.telefonos;
-            }
-            SetNotas(notas:string){
-                this.notas=notas;
-            }
-            GetNotas(notas:string){
-                return this.notas;
-            }*/
+        this._nombre = nombre;
+        this._apellidos = apellidos;
+        this._edad = edad;
+        this._dni = dni;
+        this._cumpleanios = cumpleanios;
+        this._color = color;
+        this._sexo = sexo;
+        this._direcciones = direcciones;
+        this._mails = mails;
+        this._telefonos = telefonos;
+        this._notas = notas;
     }
+    Object.defineProperty(Persona.prototype, "nombre", {
+        get: function () {
+            return this._nombre;
+        },
+        set: function (value) {
+            this._nombre = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Persona.prototype, "apellidos", {
+        get: function () {
+            return this._apellidos;
+        },
+        set: function (value) {
+            this._apellidos = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Persona.prototype, "edad", {
+        get: function () {
+            return this._edad;
+        },
+        set: function (value) {
+            this._edad = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Persona.prototype, "dni", {
+        get: function () {
+            return this._dni;
+        },
+        set: function (value) {
+            this._dni = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Persona.prototype, "cumpleanios", {
+        get: function () {
+            return this._cumpleanios;
+        },
+        set: function (value) {
+            this._cumpleanios = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Persona.prototype, "color", {
+        get: function () {
+            return this._color;
+        },
+        set: function (value) {
+            this._color = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Persona.prototype, "sexo", {
+        get: function () {
+            return this._sexo;
+        },
+        set: function (value) {
+            this._sexo = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Persona.prototype, "direcciones", {
+        get: function () {
+            return this._direcciones;
+        },
+        set: function (value) {
+            this._direcciones = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Persona.prototype, "mails", {
+        get: function () {
+            return this._mails;
+        },
+        set: function (value) {
+            this._mails = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Persona.prototype, "telefonos", {
+        get: function () {
+            return this._telefonos;
+        },
+        set: function (value) {
+            this._telefonos = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Persona.prototype, "notas", {
+        get: function () {
+            return this._notas;
+        },
+        set: function (value) {
+            this._notas = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
     return Persona;
 }());
 exports.Persona = Persona;
