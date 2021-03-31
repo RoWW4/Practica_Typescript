@@ -1,7 +1,9 @@
+//Importamos las 3 clases que va a usar Persona
 import{ Direccion } from "./Direccion";
 import{ Mail } from "./Mail";
 import { Telefono } from "./Telefono";
 
+//Exportamos Persona para que pueda ser usada en el main
 export class Persona{
     private _nombre: string;
     private _apellidos: string;
@@ -105,8 +107,5 @@ export class Persona{
     }
     public set notas(value: string) {
         this._notas = value;
-    }
-    
+    } 
 }
-
-

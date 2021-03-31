@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Direccion = void 0;
+//Hacemos la clase Direccion exportable
 var Direccion = /** @class */ (function () {
     function Direccion(calle, numero, piso, letra, cod_postal, poblacion, provincia) {
         this._calle = calle;

@@ -9,7 +9,7 @@ let persona1 = new Persona("Rocio", "Beato Martin", 30, "12345678A", new Date(19
     [new Direccion('calle cielo', 5, 'bajo', 'd', 11500, 'El Puerto', 'Cadiz')], 
     [new Mail('Personal', 'rocio@gmail.com')], 
     [new Telefono('Personal', 652479812)], 'nota1');
-let persona2 = new Persona("Pepe", "García Pérez", 40, "22222222B", new Date(1981 / 2 / 27), 'azul', 'Mujer', 
+let persona2 = new Persona("Pepe", "García Pérez", 40, "22222222B", new Date(1981 / 2 / 27), 'amarillo', 'Hombre', 
     [new Direccion('avenida libertad', 4, 'primero', 'b', 11480, 'Jerez', 'Cadiz')], 
     [new Mail('Trabajo', 'pepeformacion@gmail.com')], 
     [new Telefono('Trabajo', 684523654)], 'nota2');
@@ -27,6 +27,7 @@ imprimirPersona(persona3);
 
 /***************************INTRODUCIR DATOS*********************************/
 //Hacemos la búsqueda por DNI y podemos añadir una nueva direccion, mail o telefono a la persona que coincida el DNI que introduzcamos
+//Cuando se modifique la persona se imprimirá directamente con los nuevos datos
 insertarDireccion('12345678A');
 insertarMail('22222222B');
 insertarTelefono('12345678A');

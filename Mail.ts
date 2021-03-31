@@ -1,3 +1,4 @@
+//Hacemos la clase Mail exportable
 export class Mail {
     private _tipo: string;
     private _direccion: string;
@@ -20,6 +21,4 @@ export class Mail {
     public set direccion(value: string) {
         this._direccion = value;
     }
-
-    
 }

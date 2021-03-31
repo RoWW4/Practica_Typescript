@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Telefono = void 0;
+//Hacemos la clase Telefono exportable
 var Telefono = /** @class */ (function () {
     function Telefono(tipo, numero) {
         this._tipo = tipo;

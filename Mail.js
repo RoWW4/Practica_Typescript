@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Mail = void 0;
+//Hacemos la clase Mail exportable
 var Mail = /** @class */ (function () {
     function Mail(tipo, direccion) {
         this._tipo = tipo;

@@ -1,3 +1,4 @@
+//Hacemos la clase Direccion exportable
 export class Direccion {
     private _calle: string;
     private _numero: number;
@@ -17,7 +18,7 @@ export class Direccion {
         this._poblacion = poblacion;
         this._provincia = provincia;
     }
-
+    
     public get calle(): string {
         return this._calle;
     }
@@ -68,7 +69,6 @@ export class Direccion {
     }
 
 }
-
 
 
 

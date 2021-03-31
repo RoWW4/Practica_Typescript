@@ -1,3 +1,4 @@
+//Hacemos la clase Telefono exportable
 export class Telefono {
     private _tipo: string;
     private _numero: number;

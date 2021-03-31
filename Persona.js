@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Persona = void 0;
+//Exportamos Persona para que pueda ser usada en el main
 var Persona = /** @class */ (function () {
     function Persona(nombre, apellidos, edad, dni, cumpleanios, color, sexo, direcciones, mails, telefonos, notas) {
         this._nombre = nombre;
